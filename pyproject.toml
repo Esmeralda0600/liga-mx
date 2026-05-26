@@ -1,0 +1,15 @@
+[project]
+name = "liga-mx"
+version = "0.1.0"
+description = "Análisis de rendimiento y valor de mercado — Liga MX"
+requires-python = ">=3.13"
+dependencies = [
+    "pandas",
+    "matplotlib",
+    "seaborn",
+    "jupyter",
+    "ipykernel",
+]
+
+[tool.uv]
+dev-dependencies = []
